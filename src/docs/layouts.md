@@ -233,7 +233,7 @@ Front matter data set in a content template takes priority over layout front mat
 
 ## Layout Aliasing {% addedin "0.2.8" %}
 
-Configuration API: use `eleventyConfig.addLayoutAlias(from, to)` to add layout aliases. Say you have a bunch of existing content using `layout: post`. If you don’t want to rewrite all of those values, map `post` to a new file like this:
+Configuration API: To add layout aliases, use `eleventyConfig.addLayoutAlias(from, to)` (where `from` and `to` are paths). Say you have a bunch of existing content using `layout: post`. If you don’t want to rewrite all of those values, map `post` to a new file like this:
 
 {% codetitle ".eleventy.js" %}
 
